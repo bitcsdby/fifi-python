@@ -9,11 +9,10 @@ import fifi
 class TestEncodeDecode(unittest.TestCase):
 
     def test_encode_decode_simple(self):
-        print "FIFI:"
-        print dir(fifi)
         finite_field = fifi.simple_online_binary()
-        print "FINITE FIELD:"
-        print dir(finite_field)
+        result = finite_field.add(1, 1)
+        expected = 0
+        self.assertEqual(result, expected)
 
 
 def main():
