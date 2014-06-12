@@ -19,6 +19,7 @@
 #include <fifi/simple_online.hpp>
 
 #include "finite_field.hpp"
+#include "fifi_utils.hpp"
 
 namespace fifi_python
 {
@@ -49,5 +50,11 @@ namespace fifi_python
         finite_field<simple_online, binary4>("simple_online", "binary4");
         finite_field<simple_online, binary8>("simple_online", "binary8");
         finite_field<simple_online, binary>("simple_online", "binary");
+
+        fifi_utils<binary>("binary");
+        fifi_utils<binary4>("binary4");
+        fifi_utils<binary8>("binary8");
+        fifi_utils<binary16>("binary16");
+        fifi_utils<prime2325>("prime2325");
     }
 }

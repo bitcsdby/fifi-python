@@ -267,26 +267,22 @@ namespace fifi_python
             "\t:returns: A buffer containing the differences.\n")
 
 
-        .def("alignment", &finite_field_type::alignment,
-            "Returns the region alignment required for the buffers "
+        .add_property("alignment", &finite_field_type::alignment,
+            "The region alignment required for the buffers "
             "used in the finite field computations. The buffers passed to the "
             "arithmetic functions should have their memory aligned according "
-            "to the value returned by this function.\n\n"
-            "\t:returns: The region alignment requirement for the buffers.\n")
-        .def("max_alignment", &finite_field_type::max_alignment,
-            "Returns The maximum region alignment requirement of the stack. By "
+            "to the value returned by this function.\n\n")
+        .add_property("max_alignment", &finite_field_type::max_alignment,
+            "The maximum region alignment requirement of the stack. By "
             "complying with this requirement the highest performance can be "
-            "achieved.\n\n"
-            "\t:returns: The maximum region alignment requirement.\n")
-        .def("granularity", &finite_field_type::granularity,
-            "Returns The buffer length granularity, i.e., length (number of "
-            "value_type elements) by which the buffer must be divisible.\n\n"
-            "\t:returns: The buffer length granularity.\n")
-        .def("max_granularity", &finite_field_type::max_granularity,
-            "Returns The maximum granularity requirement of the stack. By "
+            "achieved.\n\n")
+        .add_property("granularity", &finite_field_type::granularity,
+            "The buffer length granularity, i.e., length (number of "
+            "value_type elements) by which the buffer must be divisible.\n\n")
+        .add_property("max_granularity", &finite_field_type::max_granularity,
+            "The maximum granularity requirement of the stack. By "
             "complying with this requirement the highest performance can be "
-            "achieved.\n\n"
-            "\t:returns: The maximum granularity requirement.\n")
+            "achieved.\n\n")
         ;
     }
 }
