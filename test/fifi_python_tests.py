@@ -2,7 +2,6 @@
 # encoding: utf-8
 
 import unittest
-import yaml
 
 import fifi
 
@@ -11,10 +10,20 @@ def read_yaml(file_path):
     """
     Reads a yaml file
     """
+    import yaml
     with open(file_path) as data_file:
         return yaml.load(data_file)
 
-data = read_yaml('data.yaml')
+
+def read_json(file_path):
+    """
+    Reads a json file
+    """
+    import json
+    with open(file_path) as data_file:
+        return json.load(data_file)
+
+data = read_json('data.json')
 
 fields = {
     'binary': [
