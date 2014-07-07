@@ -1,29 +1,27 @@
 #! /usr/bin/env python
 # encoding: utf-8
 
+import json
+import os
 import unittest
 
 import fifi
 
 
-def read_yaml(file_path):
-    """
-    Reads a yaml file
-    """
-    import yaml
-    with open(file_path) as data_file:
-        return yaml.load(data_file)
+DATA_FILE_NAME = 'data.json'
 
 
 def read_json(file_path):
     """
     Reads a json file
     """
-    import json
     with open(file_path) as data_file:
         return json.load(data_file)
 
-data = read_json('data.json')
+file_path = os.path.join(
+    os.path.dirname(os.path.abspath(__file__)), DATA_FILE_NAME)
+
+data = read_json(file_path)
 
 fields = {
     'binary': [
