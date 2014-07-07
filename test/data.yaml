@@ -1,0 +1,2194 @@
+
+binary:
+    multiply:
+        -
+            input1: 0
+            input2: 0
+            result: 0
+        -
+            input1: 0
+            input2: 1
+            result: 0
+        -
+            input1: 1
+            input2: 0
+            result: 0
+        -
+            input1: 1
+            input2: 1
+            result: 1
+
+    divide:
+        -
+            input1: 0
+            input2: 1
+            result: 0
+        -
+            input1: 1
+            input2: 1
+            result: 1
+
+    add:
+        -
+            input1: 0
+            input2: 0
+            result: 0
+        -
+            input1: 0
+            input2: 1
+            result: 1
+        -
+            input1: 1
+            input2: 0
+            result: 1
+        -
+            input1: 1
+            input2: 1
+            result: 0
+
+    invert:
+        -
+            input1: 1
+            result: 1
+
+    packed_multiply:
+        -
+            input1: 1
+            input2: 255
+            result: 1
+        -
+            input1: 14
+            input2: 255
+            result: 14
+        -
+            input1: 15
+            input2: 255
+            result: 15
+        -
+            input1: 16
+            input2: 255
+            result: 16
+        -
+            input1: 32
+            input2: 1
+            result: 0
+        -
+            input1: 33
+            input2: 1
+            result: 1
+        -
+            input1: 33
+            input2: 255
+            result: 33
+        -
+            input1: 64
+            input2: 255
+            result: 64
+        -
+            input1: 128
+            input2: 255
+            result: 128
+        -
+            input1: 129
+            input2: 255
+            result: 129
+        -
+            input1: 255
+            input2: 1
+            result: 1
+        -
+            input1: 255
+            input2: 1
+            result: 1
+        -
+            input1: 255
+            input2: 14
+            result: 14
+        -
+            input1: 255
+            input2: 15
+            result: 15
+        -
+            input1: 255
+            input2: 16
+            result: 16
+        -
+            input1: 255
+            input2: 33
+            result: 33
+        -
+            input1: 255
+            input2: 64
+            result: 64
+        -
+            input1: 255
+            input2: 128
+            result: 128
+        -
+            input1: 255
+            input2: 129
+            result: 129
+
+    packed_divide:
+        -
+            input1: 1
+            input2: 255
+            result: 1
+        -
+            input1: 14
+            input2: 255
+            result: 14
+        -
+            input1: 15
+            input2: 255
+            result: 15
+        -
+            input1: 16
+            input2: 255
+            result: 16
+        -
+            input1: 33
+            input2: 255
+            result: 33
+        -
+            input1: 64
+            input2: 255
+            result: 64
+        -
+            input1: 128
+            input2: 255
+            result: 128
+        -
+            input1: 129
+            input2: 255
+            result: 129
+
+    packed_add:
+        -
+            input1: 0
+            input2: 0
+            result: 0
+        -
+            input1: 0
+            input2: 1
+            result: 1
+        -
+            input1: 1
+            input2: 0
+            result: 1
+        -
+            input1: 1
+            input2: 1
+            result: 0
+        -
+            input1: 128
+            input2: 255
+            result: 127
+        -
+            input1: 255
+            input2: 0
+            result: 255
+        -
+            input1: 255
+            input2: 255
+            result: 0
+
+    packed_invert:
+        -
+            input1: 255
+            result: 255
+binary4:
+    multiply:
+        -
+            input1: 0
+            input2: 13
+            result: 0
+        -
+            input1: 0
+            input2: 14
+            result: 0
+        -
+            input1: 1
+            input2: 1
+            result: 1
+        -
+            input1: 2
+            input2: 9
+            result: 1
+        -
+            input1: 2
+            input2: 11
+            result: 5
+        -
+            input1: 3
+            input2: 2
+            result: 6
+        -
+            input1: 4
+            input2: 8
+            result: 6
+        -
+            input1: 5
+            input2: 11
+            result: 1
+        -
+            input1: 5
+            input2: 14
+            result: 3
+        -
+            input1: 5
+            input2: 15
+            result: 6
+        -
+            input1: 6
+            input2: 6
+            result: 7
+        -
+            input1: 6
+            input2: 11
+            result: 15
+        -
+            input1: 7
+            input2: 15
+            result: 11
+        -
+            input1: 8
+            input2: 12
+            result: 10
+        -
+            input1: 9
+            input2: 5
+            result: 11
+        -
+            input1: 9
+            input2: 9
+            result: 13
+        -
+            input1: 10
+            input2: 0
+            result: 0
+        -
+            input1: 11
+            input2: 9
+            result: 12
+        -
+            input1: 12
+            input2: 4
+            result: 5
+        -
+            input1: 12
+            input2: 8
+            result: 10
+        -
+            input1: 13
+            input2: 1
+            result: 13
+        -
+            input1: 13
+            input2: 15
+            result: 7
+        -
+            input1: 14
+            input2: 7
+            result: 12
+        -
+            input1: 14
+            input2: 8
+            result: 9
+        -
+            input1: 15
+            input2: 5
+            result: 6
+
+    divide:
+        -
+            input1: 0
+            input2: 4
+            result: 0
+        -
+            input1: 0
+            input2: 7
+            result: 0
+        -
+            input1: 0
+            input2: 8
+            result: 0
+        -
+            input1: 0
+            input2: 9
+            result: 0
+        -
+            input1: 0
+            input2: 9
+            result: 0
+        -
+            input1: 0
+            input2: 13
+            result: 0
+        -
+            input1: 1
+            input2: 1
+            result: 1
+        -
+            input1: 1
+            input2: 12
+            result: 10
+        -
+            input1: 2
+            input2: 9
+            result: 4
+        -
+            input1: 2
+            input2: 14
+            result: 6
+        -
+            input1: 4
+            input2: 8
+            result: 9
+        -
+            input1: 6
+            input2: 3
+            result: 2
+        -
+            input1: 6
+            input2: 4
+            result: 8
+        -
+            input1: 9
+            input2: 1
+            result: 9
+        -
+            input1: 9
+            input2: 13
+            result: 2
+        -
+            input1: 10
+            input2: 10
+            result: 1
+        -
+            input1: 11
+            input2: 6
+            result: 4
+        -
+            input1: 11
+            input2: 8
+            result: 3
+        -
+            input1: 11
+            input2: 8
+            result: 3
+        -
+            input1: 11
+            input2: 12
+            result: 2
+        -
+            input1: 11
+            input2: 14
+            result: 14
+        -
+            input1: 12
+            input2: 2
+            result: 6
+        -
+            input1: 12
+            input2: 8
+            result: 8
+        -
+            input1: 14
+            input2: 5
+            result: 8
+        -
+            input1: 14
+            input2: 14
+            result: 1
+
+    add:
+        -
+            input1: 1
+            input2: 6
+            result: 7
+        -
+            input1: 2
+            input2: 5
+            result: 7
+        -
+            input1: 2
+            input2: 6
+            result: 4
+        -
+            input1: 3
+            input2: 0
+            result: 3
+        -
+            input1: 3
+            input2: 5
+            result: 6
+        -
+            input1: 3
+            input2: 13
+            result: 14
+        -
+            input1: 5
+            input2: 1
+            result: 4
+        -
+            input1: 5
+            input2: 3
+            result: 6
+        -
+            input1: 6
+            input2: 7
+            result: 1
+        -
+            input1: 6
+            input2: 12
+            result: 10
+        -
+            input1: 7
+            input2: 1
+            result: 6
+        -
+            input1: 7
+            input2: 6
+            result: 1
+        -
+            input1: 8
+            input2: 4
+            result: 12
+        -
+            input1: 10
+            input2: 4
+            result: 14
+        -
+            input1: 10
+            input2: 6
+            result: 12
+        -
+            input1: 11
+            input2: 4
+            result: 15
+        -
+            input1: 11
+            input2: 14
+            result: 5
+        -
+            input1: 12
+            input2: 0
+            result: 12
+        -
+            input1: 12
+            input2: 1
+            result: 13
+        -
+            input1: 12
+            input2: 13
+            result: 1
+        -
+            input1: 13
+            input2: 7
+            result: 10
+        -
+            input1: 14
+            input2: 4
+            result: 10
+        -
+            input1: 14
+            input2: 6
+            result: 8
+        -
+            input1: 15
+            input2: 0
+            result: 15
+        -
+            input1: 15
+            input2: 1
+            result: 14
+
+    invert:
+        -
+            input1: 1
+            result: 1
+        -
+            input1: 2
+            result: 9
+        -
+            input1: 3
+            result: 14
+        -
+            input1: 3
+            result: 14
+        -
+            input1: 4
+            result: 13
+        -
+            input1: 4
+            result: 13
+        -
+            input1: 5
+            result: 11
+        -
+            input1: 5
+            result: 11
+        -
+            input1: 5
+            result: 11
+        -
+            input1: 6
+            result: 7
+        -
+            input1: 6
+            result: 7
+        -
+            input1: 9
+            result: 2
+        -
+            input1: 10
+            result: 12
+        -
+            input1: 10
+            result: 12
+        -
+            input1: 10
+            result: 12
+        -
+            input1: 11
+            result: 5
+        -
+            input1: 11
+            result: 5
+        -
+            input1: 12
+            result: 10
+        -
+            input1: 14
+            result: 3
+        -
+            input1: 14
+            result: 3
+        -
+            input1: 14
+            result: 3
+        -
+            input1: 15
+            result: 8
+        -
+            input1: 15
+            result: 8
+        -
+            input1: 15
+            result: 8
+        -
+            input1: 15
+            result: 8
+
+    packed_multiply:
+        -
+            input1: 0
+            input2: 13
+            result: 0
+        -
+            input1: 0
+            input2: 14
+            result: 0
+        -
+            input1: 1
+            input2: 1
+            result: 1
+        -
+            input1: 2
+            input2: 9
+            result: 1
+        -
+            input1: 2
+            input2: 11
+            result: 5
+        -
+            input1: 3
+            input2: 2
+            result: 6
+        -
+            input1: 4
+            input2: 8
+            result: 6
+        -
+            input1: 5
+            input2: 11
+            result: 1
+        -
+            input1: 5
+            input2: 14
+            result: 3
+        -
+            input1: 5
+            input2: 15
+            result: 6
+        -
+            input1: 6
+            input2: 6
+            result: 7
+        -
+            input1: 6
+            input2: 11
+            result: 15
+        -
+            input1: 7
+            input2: 15
+            result: 11
+        -
+            input1: 8
+            input2: 12
+            result: 10
+        -
+            input1: 9
+            input2: 5
+            result: 11
+        -
+            input1: 9
+            input2: 9
+            result: 13
+        -
+            input1: 10
+            input2: 0
+            result: 0
+        -
+            input1: 11
+            input2: 9
+            result: 12
+        -
+            input1: 12
+            input2: 4
+            result: 5
+        -
+            input1: 12
+            input2: 8
+            result: 10
+        -
+            input1: 13
+            input2: 1
+            result: 13
+        -
+            input1: 13
+            input2: 15
+            result: 7
+        -
+            input1: 14
+            input2: 7
+            result: 12
+        -
+            input1: 14
+            input2: 8
+            result: 9
+        -
+            input1: 15
+            input2: 5
+            result: 6
+
+    packed_divide:
+        -
+            input1: 0
+            input2: 20
+            result: 0
+        -
+            input1: 0
+            input2: 23
+            result: 0
+        -
+            input1: 0
+            input2: 24
+            result: 0
+        -
+            input1: 0
+            input2: 25
+            result: 0
+        -
+            input1: 0
+            input2: 25
+            result: 0
+        -
+            input1: 0
+            input2: 29
+            result: 0
+        -
+            input1: 1
+            input2: 17
+            result: 1
+        -
+            input1: 1
+            input2: 28
+            result: 10
+        -
+            input1: 2
+            input2: 25
+            result: 4
+        -
+            input1: 2
+            input2: 30
+            result: 6
+        -
+            input1: 4
+            input2: 24
+            result: 9
+        -
+            input1: 6
+            input2: 19
+            result: 2
+        -
+            input1: 6
+            input2: 20
+            result: 8
+        -
+            input1: 9
+            input2: 17
+            result: 9
+        -
+            input1: 9
+            input2: 29
+            result: 2
+        -
+            input1: 10
+            input2: 26
+            result: 1
+        -
+            input1: 11
+            input2: 22
+            result: 4
+        -
+            input1: 11
+            input2: 24
+            result: 3
+        -
+            input1: 11
+            input2: 24
+            result: 3
+        -
+            input1: 11
+            input2: 28
+            result: 2
+        -
+            input1: 11
+            input2: 30
+            result: 14
+        -
+            input1: 12
+            input2: 18
+            result: 6
+        -
+            input1: 12
+            input2: 24
+            result: 8
+        -
+            input1: 14
+            input2: 21
+            result: 8
+        -
+            input1: 14
+            input2: 30
+            result: 1
+
+    packed_add:
+        -
+            input1: 1
+            input2: 6
+            result: 7
+        -
+            input1: 1
+            input2: 9
+            result: 8
+        -
+            input1: 1
+            input2: 12
+            result: 13
+        -
+            input1: 1
+            input2: 15
+            result: 14
+        -
+            input1: 2
+            input2: 3
+            result: 1
+        -
+            input1: 2
+            input2: 5
+            result: 7
+        -
+            input1: 2
+            input2: 6
+            result: 4
+        -
+            input1: 2
+            input2: 10
+            result: 8
+        -
+            input1: 2
+            input2: 11
+            result: 9
+        -
+            input1: 3
+            input2: 0
+            result: 3
+        -
+            input1: 3
+            input2: 2
+            result: 1
+        -
+            input1: 3
+            input2: 5
+            result: 6
+        -
+            input1: 3
+            input2: 13
+            result: 14
+        -
+            input1: 4
+            input2: 2
+            result: 6
+        -
+            input1: 4
+            input2: 11
+            result: 15
+        -
+            input1: 5
+            input2: 1
+            result: 4
+        -
+            input1: 5
+            input2: 3
+            result: 6
+        -
+            input1: 6
+            input2: 7
+            result: 1
+        -
+            input1: 6
+            input2: 8
+            result: 14
+        -
+            input1: 6
+            input2: 12
+            result: 10
+        -
+            input1: 7
+            input2: 1
+            result: 6
+        -
+            input1: 7
+            input2: 6
+            result: 1
+        -
+            input1: 7
+            input2: 12
+            result: 11
+        -
+            input1: 8
+            input2: 4
+            result: 12
+        -
+            input1: 9
+            input2: 3
+            result: 10
+        -
+            input1: 9
+            input2: 6
+            result: 15
+        -
+            input1: 10
+            input2: 4
+            result: 14
+        -
+            input1: 10
+            input2: 6
+            result: 12
+        -
+            input1: 10
+            input2: 13
+            result: 7
+        -
+            input1: 11
+            input2: 4
+            result: 15
+        -
+            input1: 11
+            input2: 12
+            result: 7
+        -
+            input1: 11
+            input2: 14
+            result: 5
+        -
+            input1: 12
+            input2: 0
+            result: 12
+        -
+            input1: 12
+            input2: 1
+            result: 13
+        -
+            input1: 12
+            input2: 13
+            result: 1
+        -
+            input1: 13
+            input2: 3
+            result: 14
+        -
+            input1: 13
+            input2: 7
+            result: 10
+        -
+            input1: 13
+            input2: 9
+            result: 4
+        -
+            input1: 13
+            input2: 13
+            result: 0
+        -
+            input1: 14
+            input2: 4
+            result: 10
+        -
+            input1: 14
+            input2: 6
+            result: 8
+        -
+            input1: 14
+            input2: 8
+            result: 6
+        -
+            input1: 14
+            input2: 9
+            result: 7
+        -
+            input1: 14
+            input2: 11
+            result: 5
+        -
+            input1: 15
+            input2: 0
+            result: 15
+        -
+            input1: 15
+            input2: 1
+            result: 14
+        -
+            input1: 17
+            input2: 17
+            result: 0
+
+    packed_invert:
+        -
+            input1: 21
+            result: 27
+        -
+            input1: 36
+            result: 157
+        -
+            input1: 51
+            result: 238
+        -
+            input1: 51
+            result: 238
+        -
+            input1: 66
+            result: 217
+        -
+            input1: 73
+            result: 210
+        -
+            input1: 81
+            result: 177
+        -
+            input1: 91
+            result: 181
+        -
+            input1: 95
+            result: 184
+        -
+            input1: 108
+            result: 122
+        -
+            input1: 111
+            result: 120
+        -
+            input1: 148
+            result: 45
+        -
+            input1: 170
+            result: 204
+        -
+            input1: 170
+            result: 204
+        -
+            input1: 175
+            result: 200
+        -
+            input1: 181
+            result: 91
+        -
+            input1: 191
+            result: 88
+        -
+            input1: 198
+            result: 167
+        -
+            input1: 238
+            result: 51
+        -
+            input1: 238
+            result: 51
+        -
+            input1: 238
+            result: 51
+        -
+            input1: 245
+            result: 139
+        -
+            input1: 246
+            result: 135
+        -
+            input1: 250
+            result: 140
+        -
+            input1: 251
+            result: 133
+
+binary8:
+    multiply:
+        -
+            input1: 0
+            input2: 0
+            result: 0
+        -
+            input1: 0
+            input2: 2
+            result: 0
+        -
+            input1: 1
+            input2: 1
+            result: 1
+        -
+            input1: 1
+            input2: 2
+            result: 2
+        -
+            input1: 1
+            input2: 46
+            result: 46
+        -
+            input1: 2
+            input2: 1
+            result: 2
+        -
+            input1: 4
+            input2: 200
+            result: 7
+        -
+            input1: 5
+            input2: 5
+            result: 17
+        -
+            input1: 10
+            input2: 10
+            result: 68
+        -
+            input1: 10
+            input2: 20
+            result: 136
+        -
+            input1: 12
+            input2: 87
+            result: 195
+        -
+            input1: 25
+            input2: 10
+            result: 250
+        -
+            input1: 25
+            input2: 15
+            result: 135
+        -
+            input1: 25
+            input2: 66
+            result: 60
+        -
+            input1: 30
+            input2: 242
+            result: 78
+        -
+            input1: 67
+            input2: 1
+            result: 67
+        -
+            input1: 110
+            input2: 7
+            result: 23
+        -
+            input1: 110
+            input2: 253
+            result: 232
+        -
+            input1: 144
+            input2: 66
+            result: 206
+        -
+            input1: 176
+            input2: 132
+            result: 204
+        -
+            input1: 200
+            input2: 200
+            result: 158
+        -
+            input1: 251
+            input2: 133
+            result: 104
+        -
+            input1: 254
+            input2: 254
+            result: 227
+        -
+            input1: 255
+            input2: 255
+            result: 226
+
+    divide:
+        -
+            input1: 0
+            input2: 2
+            result: 0
+        -
+            input1: 1
+            input2: 1
+            result: 1
+        -
+            input1: 1
+            input2: 2
+            result: 142
+        -
+            input1: 1
+            input2: 46
+            result: 51
+        -
+            input1: 2
+            input2: 1
+            result: 2
+        -
+            input1: 4
+            input2: 200
+            result: 111
+        -
+            input1: 5
+            input2: 5
+            result: 1
+        -
+            input1: 10
+            input2: 10
+            result: 1
+        -
+            input1: 10
+            input2: 20
+            result: 142
+        -
+            input1: 12
+            input2: 87
+            result: 182
+        -
+            input1: 25
+            input2: 10
+            result: 42
+        -
+            input1: 25
+            input2: 15
+            result: 199
+        -
+            input1: 25
+            input2: 66
+            result: 80
+        -
+            input1: 30
+            input2: 242
+            result: 199
+        -
+            input1: 67
+            input2: 1
+            result: 67
+        -
+            input1: 110
+            input2: 7
+            result: 125
+        -
+            input1: 110
+            input2: 253
+            result: 52
+        -
+            input1: 144
+            input2: 66
+            result: 254
+        -
+            input1: 176
+            input2: 132
+            result: 68
+        -
+            input1: 200
+            input2: 200
+            result: 1
+        -
+            input1: 251
+            input2: 133
+            result: 52
+        -
+            input1: 254
+            input2: 254
+            result: 1
+        -
+            input1: 255
+            input2: 255
+            result: 1
+
+    add:
+        -
+            input1: 4
+            input2: 196
+            result: 192
+        -
+            input1: 13
+            input2: 106
+            result: 103
+        -
+            input1: 15
+            input2: 154
+            result: 149
+        -
+            input1: 53
+            input2: 155
+            result: 174
+        -
+            input1: 54
+            input2: 214
+            result: 224
+        -
+            input1: 68
+            input2: 112
+            result: 52
+        -
+            input1: 78
+            input2: 223
+            result: 145
+        -
+            input1: 97
+            input2: 200
+            result: 169
+        -
+            input1: 105
+            input2: 190
+            result: 215
+        -
+            input1: 127
+            input2: 55
+            result: 72
+        -
+            input1: 145
+            input2: 203
+            result: 90
+        -
+            input1: 160
+            input2: 34
+            result: 130
+        -
+            input1: 161
+            input2: 94
+            result: 255
+        -
+            input1: 163
+            input2: 53
+            result: 150
+        -
+            input1: 164
+            input2: 82
+            result: 246
+        -
+            input1: 174
+            input2: 118
+            result: 216
+        -
+            input1: 194
+            input2: 135
+            result: 69
+        -
+            input1: 201
+            input2: 112
+            result: 185
+        -
+            input1: 238
+            input2: 174
+            result: 64
+        -
+            input1: 245
+            input2: 185
+            result: 76
+        -
+            input1: 248
+            input2: 252
+            result: 4
+
+    invert:
+        -
+            input1: 1
+            result: 1
+        -
+            input1: 2
+            result: 142
+        -
+            input1: 5
+            result: 167
+        -
+            input1: 10
+            result: 221
+        -
+            input1: 15
+            result: 150
+        -
+            input1: 20
+            result: 224
+        -
+            input1: 25
+            result: 222
+        -
+            input1: 46
+            result: 51
+        -
+            input1: 66
+            result: 248
+        -
+            input1: 67
+            result: 213
+        -
+            input1: 87
+            result: 97
+        -
+            input1: 110
+            result: 47
+        -
+            input1: 132
+            result: 124
+        -
+            input1: 133
+            result: 204
+        -
+            input1: 144
+            result: 24
+        -
+            input1: 200
+            result: 210
+        -
+            input1: 242
+            result: 181
+        -
+            input1: 253
+            result: 255
+        -
+            input1: 254
+            result: 126
+        -
+            input1: 255
+            result: 253
+
+binary16:
+    multiply:
+        -
+            input1: 0
+            input2: 0
+            result: 0
+        -
+            input1: 0
+            input2: 2
+            result: 0
+        -
+            input1: 1
+            input2: 1
+            result: 1
+        -
+            input1: 1
+            input2: 2
+            result: 2
+        -
+            input1: 1
+            input2: 46
+            result: 46
+        -
+            input1: 2
+            input2: 1
+            result: 2
+        -
+            input1: 4
+            input2: 200
+            result: 800
+        -
+            input1: 5
+            input2: 5
+            result: 17
+        -
+            input1: 10
+            input2: 10
+            result: 68
+        -
+            input1: 10
+            input2: 20
+            result: 136
+        -
+            input1: 12
+            input2: 87
+            result: 996
+        -
+            input1: 25
+            input2: 10
+            result: 250
+        -
+            input1: 25
+            input2: 15
+            result: 135
+        -
+            input1: 25
+            input2: 66
+            result: 1650
+        -
+            input1: 30
+            input2: 242
+            result: 2716
+        -
+            input1: 67
+            input2: 1
+            result: 67
+        -
+            input1: 110
+            input2: 7
+            result: 266
+        -
+            input1: 110
+            input2: 253
+            result: 9478
+        -
+            input1: 144
+            input2: 66
+            result: 9504
+        -
+            input1: 176
+            input2: 132
+            result: 23232
+        -
+            input1: 200
+            input2: 200
+            result: 20544
+        -
+            input1: 251
+            input2: 133
+            result: 32407
+        -
+            input1: 254
+            input2: 254
+            result: 21844
+        -
+            input1: 255
+            input2: 255
+            result: 21845
+
+    divide:
+        -
+            input1: 0
+            input2: 2
+            result: 0
+        -
+            input1: 1
+            input2: 1
+            result: 1
+        -
+            input1: 1
+            input2: 2
+            result: 34821
+        -
+            input1: 1
+            input2: 46
+            result: 2983
+        -
+            input1: 2
+            input2: 1
+            result: 2
+        -
+            input1: 4
+            input2: 200
+            result: 28050
+        -
+            input1: 5
+            input2: 5
+            result: 1
+        -
+            input1: 10
+            input2: 10
+            result: 1
+        -
+            input1: 10
+            input2: 20
+            result: 34821
+        -
+            input1: 12
+            input2: 87
+            result: 46287
+        -
+            input1: 25
+            input2: 10
+            result: 55300
+        -
+            input1: 25
+            input2: 15
+            result: 24577
+        -
+            input1: 25
+            input2: 66
+            result: 55164
+        -
+            input1: 30
+            input2: 242
+            result: 34597
+        -
+            input1: 67
+            input2: 1
+            result: 67
+        -
+            input1: 110
+            input2: 7
+            result: 54984
+        -
+            input1: 110
+            input2: 253
+            result: 825
+        -
+            input1: 144
+            input2: 66
+            result: 54045
+        -
+            input1: 176
+            input2: 132
+            result: 2247
+        -
+            input1: 200
+            input2: 200
+            result: 1
+        -
+            input1: 251
+            input2: 133
+            result: 46436
+        -
+            input1: 254
+            input2: 254
+            result: 1
+        -
+            input1: 255
+            input2: 255
+            result: 1
+
+    add:
+        -
+            input1: 4245
+            input2: 64771
+            result: 60822
+        -
+            input1: 8947
+            input2: 770
+            result: 8689
+        -
+            input1: 11335
+            input2: 64208
+            result: 54935
+        -
+            input1: 13701
+            input2: 24891
+            result: 21694
+        -
+            input1: 17789
+            input2: 16536
+            result: 1509
+        -
+            input1: 18639
+            input2: 30751
+            result: 12496
+        -
+            input1: 19577
+            input2: 43348
+            result: 58669
+        -
+            input1: 27222
+            input2: 19988
+            result: 9282
+        -
+            input1: 28371
+            input2: 14808
+            result: 22283
+        -
+            input1: 30218
+            input2: 37213
+            result: 59223
+        -
+            input1: 33784
+            input2: 21886
+            result: 54918
+        -
+            input1: 34722
+            input2: 41977
+            result: 9307
+        -
+            input1: 37998
+            input2: 49831
+            result: 22217
+        -
+            input1: 38193
+            input2: 27754
+            result: 63835
+        -
+            input1: 39509
+            input2: 3294
+            result: 38539
+        -
+            input1: 50328
+            input2: 63624
+            result: 15376
+        -
+            input1: 51335
+            input2: 44619
+            result: 26316
+        -
+            input1: 52049
+            input2: 3879
+            result: 50294
+        -
+            input1: 57302
+            input2: 984
+            result: 56334
+        -
+            input1: 57392
+            input2: 48319
+            result: 23695
+        -
+            input1: 58582
+            input2: 13051
+            result: 54829
+
+    invert:
+        -
+            input1: 1
+            result: 1
+        -
+            input1: 2
+            result: 34821
+        -
+            input1: 5
+            result: 20482
+        -
+            input1: 10
+            result: 10241
+        -
+            input1: 15
+            result: 49159
+        -
+            input1: 20
+            result: 39941
+        -
+            input1: 25
+            result: 56100
+        -
+            input1: 46
+            result: 2983
+        -
+            input1: 66
+            result: 19094
+        -
+            input1: 67
+            result: 56530
+        -
+            input1: 87
+            result: 55062
+        -
+            input1: 110
+            result: 61399
+        -
+            input1: 132
+            result: 9547
+        -
+            input1: 133
+            result: 63805
+        -
+            input1: 144
+            result: 25710
+        -
+            input1: 200
+            result: 37729
+        -
+            input1: 242
+            result: 46215
+        -
+            input1: 253
+            result: 38174
+        -
+            input1: 254
+            result: 12174
+        -
+            input1: 255
+            result: 7372
+
+prime2325:
+    multiply:
+        -
+            input1: 0
+            input2: 0
+            result: 0
+        -
+            input1: 8961698
+            input2: 1454316048
+            result: 2844647930
+        -
+            input1: 188377222
+            input2: 2440371958
+            result: 1837383177
+        -
+            input1: 366785572
+            input2: 3273833947
+            result: 1357321858
+        -
+            input1: 484124441
+            input2: 2513732051
+            result: 2038062075
+        -
+            input1: 549534826
+            input2: 3692094631
+            result: 3813011302
+        -
+            input1: 591588585
+            input2: 2298808855
+            result: 2016341846
+        -
+            input1: 628824443
+            input2: 2882587157
+            result: 2414550839
+        -
+            input1: 714307256
+            input2: 4017788735
+            result: 2552564636
+        -
+            input1: 890246292
+            input2: 3115294715
+            result: 3374921530
+        -
+            input1: 1135999486
+            input2: 2298616897
+            result: 2948135396
+        -
+            input1: 1241752606
+            input2: 2682856520
+            result: 1016247841
+        -
+            input1: 1319528055
+            input2: 3213225118
+            result: 472935279
+        -
+            input1: 1501780748
+            input2: 772682526
+            result: 464840319
+        -
+            input1: 1516764886
+            input2: 2487733786
+            result: 1221426309
+        -
+            input1: 1921500106
+            input2: 1581124167
+            result: 2064202209
+        -
+            input1: 1923821210
+            input2: 4910817
+            result: 1727198145
+        -
+            input1: 2747836187
+            input2: 606517521
+            result: 4005335094
+        -
+            input1: 2755140095
+            input2: 3176782815
+            result: 3071678684
+        -
+            input1: 2865873554
+            input2: 4023346111
+            result: 1390523154
+        -
+            input1: 2898832361
+            input2: 3285799624
+            result: 205888686
+        -
+            input1: 3216464703
+            input2: 2321361148
+            result: 2159784831
+        -
+            input1: 3301510135
+            input2: 2380300242
+            result: 3460816498
+        -
+            input1: 3791215484
+            input2: 823219598
+            result: 3413971131
+        -
+            input1: 3916985401
+            input2: 2885578550
+            result: 3986996714
+        -
+            input1: 3948329266
+            input2: 1846670630
+            result: 2958898160
+        -
+            input1: 4057832578
+            input2: 783228777
+            result: 1061113545
+        -
+            input1: 4071004727
+            input2: 3893610017
+            result: 3098938562
+        -
+            input1: 4294967290
+            input2: 1
+            result: 4294967290
+        -
+            input1: 4294967290
+            input2: 2
+            result: 4294967289
+        -
+            input1: 4294967290
+            input2: 4294967290
+            result: 1
+
+    divide:
+        -
+            input1: 1
+            input2: 4294967290
+            result: 4294967290
+        -
+            input1: 2
+            input2: 4294967290
+            result: 4294967289
+        -
+            input1: 163139403
+            input2: 1828949500
+            result: 2835205604
+        -
+            input1: 623898484
+            input2: 59902254
+            result: 1708820736
+        -
+            input1: 1078074232
+            input2: 1671507801
+            result: 2817715425
+        -
+            input1: 1190843567
+            input2: 1126933466
+            result: 3113318947
+        -
+            input1: 1336522198
+            input2: 1280630940
+            result: 91488717
+        -
+            input1: 1380709308
+            input2: 3151385314
+            result: 4242837144
+        -
+            input1: 2019008287
+            input2: 1889765579
+            result: 2374943388
+        -
+            input1: 2271514114
+            input2: 542032264
+            result: 2085796361
+        -
+            input1: 2622046040
+            input2: 209860049
+            result: 1117407655
+        -
+            input1: 2639979264
+            input2: 1669621279
+            result: 3855275193
+        -
+            input1: 3170796863
+            input2: 1056595135
+            result: 2349732681
+        -
+            input1: 3235144123
+            input2: 393597417
+            result: 3381961331
+        -
+            input1: 3846022732
+            input2: 2429951133
+            result: 2542996908
+        -
+            input1: 4026952922
+            input2: 589957415
+            result: 1126790683
+        -
+            input1: 4031746231
+            input2: 1150048672
+            result: 2067171649
+        -
+            input1: 4161263482
+            input2: 1084683978
+            result: 57951883
+        -
+            input1: 4188684512
+            input2: 871209300
+            result: 4103154428
+        -
+            input1: 4294967290
+            input2: 1
+            result: 4294967290
+        -
+            input1: 4294967290
+            input2: 2
+            result: 2147483645
+        -
+            input1: 4294967290
+            input2: 4294967290
+            result: 1
+
+    add:
+        -
+            input1: 0
+            input2: 0
+            result: 0
+        -
+            input1: 13775737
+            input2: 3832303341
+            result: 3846079078
+        -
+            input1: 416764808
+            input2: 2952672146
+            result: 3369436954
+        -
+            input1: 954547203
+            input2: 3403230939
+            result: 62810851
+        -
+            input1: 1304171116
+            input2: 2058347943
+            result: 3362519059
+        -
+            input1: 1997027658
+            input2: 1158755251
+            result: 3155782909
+        -
+            input1: 2228876704
+            input2: 3769080616
+            result: 1702990029
+        -
+            input1: 2699559732
+            input2: 4130167990
+            result: 2534760431
+        -
+            input1: 2721360764
+            input2: 3099915689
+            result: 1526309162
+        -
+            input1: 2761881503
+            input2: 3727769459
+            result: 2194683671
+        -
+            input1: 2780503337
+            input2: 508086692
+            result: 3288590029
+        -
+            input1: 3164597666
+            input2: 249577394
+            result: 3414175060
+        -
+            input1: 3275759048
+            input2: 318206772
+            result: 3593965820
+        -
+            input1: 3393423153
+            input2: 2569499151
+            result: 1667955013
+        -
+            input1: 3549012440
+            input2: 3097460608
+            result: 2351505757
+        -
+            input1: 3562900696
+            input2: 433428
+            result: 3563334124
+        -
+            input1: 3733613168
+            input2: 4250233244
+            result: 3688879121
+        -
+            input1: 3860097427
+            input2: 3766812989
+            result: 3331943125
+        -
+            input1: 4294967290
+            input2: 1
+            result: 0
+        -
+            input1: 4294967290
+            input2: 2
+            result: 1
+        -
+            input1: 4294967290
+            input2: 4294967290
+            result: 4294967289
+
+    subtract:
+        -
+            input1: 0
+            input2: 0
+            result: 0
+        -
+            input1: 1
+            input2: 4294967290
+            result: 2
+        -
+            input1: 2
+            input2: 4294967290
+            result: 3
+        -
+            input1: 815150013
+            input2: 2783628454
+            result: 2326488850
+        -
+            input1: 111197069
+            input2: 3288497105
+            result: 2117667255
+        -
+            input1: 376464298
+            input2: 3719246614
+            result: 1952184975
+        -
+            input1: 555616877
+            input2: 417999038
+            result: 1137617839
+        -
+            input1: 591755985
+            input2: 760357706
+            result: 831398279
+        -
+            input1: 646681944
+            input2: 2090570642
+            result: 3851078593
+        -
+            input1: 718415100
+            input2: 3764394937
+            result: 2248987454
+        -
+            input1: 021566441
+            input2: 1563544409
+            result: 458022032
+        -
+            input1: 279203252
+            input2: 2364542188
+            result: 4209628355
+        -
+            input1: 313466124
+            input2: 1242826905
+            result: 1070639219
+        -
+            input1: 486487802
+            input2: 4101049708
+            result: 2680405385
+        -
+            input1: 3007334859
+            input2: 2068575905
+            result: 938758954
+        -
+            input1: 3267843829
+            input2: 3990959519
+            result: 3571851601
+        -
+            input1: 3448691623
+            input2: 2270397823
+            result: 1178293800
+        -
+            input1: 3601154686
+            input2: 238248285
+            result: 3362906401
+        -
+            input1: 3850830140
+            input2: 4242429948
+            result: 3903367483
+        -
+            input1: 4181356062
+            input2: 2914712094
+            result: 1266643968
+        -
+            input1: 4294967290
+            input2: 1
+            result: 4294967289
+        -
+            input1: 4294967290
+            input2: 2
+            result: 4294967288
+        -
+            input1: 4294967290
+            input2: 4294967290
+            result: 0
+
+    invert:
+        -
+            input1: 1
+            result: 1
+        -
+            input1: 2
+            result: 2147483646
+        -
+            input1: 272572125
+            result: 1887955081
+        -
+            input1: 1351905135
+            result: 4218730939
+        -
+            input1: 1353929616
+            result: 2406667616
+        -
+            input1: 1444146446
+            result: 811575873
+        -
+            input1: 1630048742
+            result: 3481329838
+        -
+            input1: 1879748638
+            result: 4180067651
+        -
+            input1: 1909520067
+            result: 527117708
+        -
+            input1: 2001693299
+            result: 2659441565
+        -
+            input1: 2037479732
+            result: 770197497
+        -
+            input1: 2399533030
+            result: 403603339
+        -
+            input1: 2832328698
+            result: 1639852349
+        -
+            input1: 2968542519
+            result: 2207640096
+        -
+            input1: 3319742702
+            result: 2900579629
+        -
+            input1: 3477593642
+            result: 2778157346
+        -
+            input1: 3795789800
+            result: 915126934
+        -
+            input1: 3909187862
+            result: 1505740374
+        -
+            input1: 4175463158
+            result: 2780563524
+        -
+            input1: 4294967290
+            result: 4294967290
