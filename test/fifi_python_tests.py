@@ -126,9 +126,9 @@ class TestOperations(unittest.TestCase):
                 if not hasattr(finite_field, real_operation):
                     return
 
-                input1 = ""
-                input2 = ""
-                expected = ""
+                input1 = bytes()
+                input2 = bytes()
+                expected = bytes()
 
                 for d in test_data[field].get(operation, []):
                     input1 += struct.pack(value_type, d['input1'])
