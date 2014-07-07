@@ -58,8 +58,6 @@ class TestOperations(unittest.TestCase):
                 for d in test_data:
                     args = []
                     args.append(d['input1'])
-                    if type(args[0]) is str:
-                        print args
                     if 'input2' in d:
                         args.append(d['input2'])
                     expected = d['result']
