@@ -34,9 +34,6 @@ class {classname}(object):
     def __truediv__(self, b):
         return self.__div__(b)
 
-    def __floordiv__(self, b):
-        self.__truediv__(b)
-
     def __invert__(self):
         return {classname}({classname}.field.invert(self.number))
 
