@@ -6,7 +6,7 @@ every change, see the Git log.
 
 Latest
 ------
-* tbd
+* Minor: Added examples and simple api wrapping the basic functions of fifi.
 
 1.0.1
 ------
