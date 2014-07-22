@@ -9,10 +9,10 @@ Latest
 * Minor: Added examples and simple api wrapping the basic functions of fifi.
 
 1.0.1
-------
+-----
 * BugFix: Removed unused dependencies.
 
 
 1.0.0
-------
+-----
 * Initial release
