@@ -8,7 +8,11 @@ library.
 How to Get It
 =============
 To get the Python bindings, you can either build them from source or download
-a prebuilt version from `here`_.
+a prebuilt version from `here`_, or simply get it from pip:
+
+.. image:: https://badge.fury.io/py/fifi.svg
+    :target: http://badge.fury.io/py/fifi
+
 
 .. _here: http://bongo.steinwurf.dk/files/bin/fifi-python
 
