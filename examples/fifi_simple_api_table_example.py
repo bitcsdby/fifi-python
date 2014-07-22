@@ -1,4 +1,5 @@
-from fifi_simple_api import B, B4, B8
+from fifi_simple_api import B4
+
 
 def print_finite_field_table(b, operation):
     """
@@ -32,6 +33,7 @@ def print_finite_field_table(b, operation):
 
     return ''.join(string)
 
+
 def main():
     field = B4
 
@@ -45,14 +47,16 @@ def main():
     print(print_finite_field_table(field, lambda a, b: a * b))
 
     print('division')
-    print(print_finite_field_table(field, lambda a, b: a / b if b.number != 0 else 'NAN'))
+    print(print_finite_field_table(
+        field,
+        lambda a, b: a / b if b.number != 0 else 'NAN'))
 
     print('invert')
     print('------')
     for i in field.range:
         if i == 0:
             continue
-        print('{0:>2s}|{1:>3s}'.format(str(i),str(~field(i))))
+        print('{0:>2s}|{1:>3s}'.format(str(i), str(~field(i))))
 
 if __name__ == '__main__':
     main()

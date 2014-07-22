@@ -1,5 +1,6 @@
 import fifi
 
+
 def main():
     field = fifi.simple_online_binary4()
     a = 13

@@ -1,25 +1,41 @@
-import fifi
+from fifi import *
+
 
 simple_api_template = """
 class {classname}(object):
     \"\"\"Finite field number class for {name}.\"\"\"
-    range = xrange(2**{degree})
-    field = fifi.{implementation}_{name}()
+    range = range(2**{degree})
+    field = {implementation}_{name}()
     def __init__(self, number):
         super({classname}, self).__init__()
         self.number = number
 
+    def __convert(self, b):
+            if type(b) is int:
+                return {classname}(b)
+            return b
+
     def __add__(self, b):
+        b = self.__convert(b)
         return {classname}({classname}.field.add(self.number, b.number))
 
     def __sub__(self, b):
+        b = self.__convert(b)
         return {classname}({classname}.field.subtract(self.number, b.number))
 
     def __mul__(self, b):
+        b = self.__convert(b)
         return {classname}({classname}.field.multiply(self.number, b.number))
 
     def __div__(self, b):
+        b = self.__convert(b)
         return {classname}({classname}.field.divide(self.number, b.number))
+
+    def __truediv__(self, b):
+        return self.__div__(b)
+
+    def __floordiv__(self, b):
+        self.__truediv__(b)
 
     def __invert__(self):
         return {classname}({classname}.field.invert(self.number))
@@ -47,7 +63,7 @@ fields = {
     },
 }
 
-for name, field in fields.iteritems():
+for name, field in fields.items():
     exec(simple_api_template.format(
         name=name,
         implementation='simple_online',
