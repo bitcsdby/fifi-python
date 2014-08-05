@@ -116,7 +116,7 @@ Install Xcode and Command-line Tools from the Mac Store.
 
 Windows
 -------
-Install a 32-bit Python and Visual Studio 2013 (Express).
+Install Python 2.7 32-bit and Visual Studio 2013 (Express).
 Now set the following environment variable ``VS90COMNTOOLS`` to::
 
   C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\Tools\
