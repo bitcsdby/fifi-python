@@ -5,7 +5,7 @@ library. The bindings provide access to the arithmetic operations provided by
 Fifi.
 
 .. image:: http://buildbot.steinwurf.dk/svgstatus?project=fifi-python
-    :target: http://buildbot.steinwurf.dk/stats?project=fifi-python
+    :target: http://buildbot.steinwurf.dk/stats?projects=fifi-python
     :alt: Buildbot status
 .. image:: https://badge.fury.io/py/fifi.svg
     :target: http://badge.fury.io/py/fifi
