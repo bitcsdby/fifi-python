@@ -267,22 +267,14 @@ namespace fifi_python
             "\t:returns: A buffer containing the differences.\n")
 
 
-        .add_property("alignment", &finite_field_type::alignment,
+        .add_property("min_alignment", &finite_field_type::min_alignment,
             "The region alignment required for the buffers "
             "used in the finite field computations. The buffers passed to the "
             "arithmetic functions should have their memory aligned according "
             "to the value returned by this function.\n\n")
-        .add_property("max_alignment", &finite_field_type::max_alignment,
-            "The maximum region alignment requirement of the stack. By "
-            "complying with this requirement the highest performance can be "
-            "achieved.\n\n")
-        .add_property("granularity", &finite_field_type::granularity,
+        .add_property("min_granularity", &finite_field_type::min_granularity,
             "The buffer length granularity, i.e., length (number of "
             "value_type elements) by which the buffer must be divisible.\n\n")
-        .add_property("max_granularity", &finite_field_type::max_granularity,
-            "The maximum granularity requirement of the stack. By "
-            "complying with this requirement the highest performance can be "
-            "achieved.\n\n")
         ;
     }
 }
