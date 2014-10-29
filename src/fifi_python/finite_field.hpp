@@ -131,7 +131,8 @@ namespace fifi_python
         typedef typename Field::value_type value_type;
         typedef Arithmetic<Field> finite_field_type;
 
-        class_<finite_field_type>(name.c_str(), "A finite field implementation")
+        class_<finite_field_type, boost::noncopyable>(
+            name.c_str(), "A finite field implementation")
         .def("add", &finite_field_type::add, args("a", "b"),
             "Returns the sum of two field elements.\n\n"
             "\t:param a: The augend.\n"
