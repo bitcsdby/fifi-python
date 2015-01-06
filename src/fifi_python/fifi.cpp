@@ -23,12 +23,51 @@
 
 namespace fifi_python
 {
+    std::string version()
+    {
+        std::string version = std::string("fifi-python: ");
+        version += STEINWURF_FIFI_PYTHON_VERSION;
+
+        // Add dependency versions:
+        version += std::string("\n\tboost: ");
+#ifdef STEINWURF_BOOST_VERSION
+        version += std::string(STEINWURF_BOOST_VERSION);
+#endif
+        version += std::string("\n\tcpuid: ");
+#ifdef STEINWURF_CPUID_VERSION
+        version += std::string(STEINWURF_CPUID_VERSION);
+#endif
+        version += std::string("\n\tfifi: ");
+#ifdef STEINWURF_FIFI_VERSION
+        version += std::string(STEINWURF_FIFI_VERSION);
+#endif
+        version += std::string("\n\tplatform: ");
+#ifdef STEINWURF_PLATFORM_VERSION
+        version += std::string(STEINWURF_PLATFORM_VERSION);
+#endif
+        version += std::string("\n\tsak: ");
+#ifdef STEINWURF_SAK_VERSION
+        version += std::string(STEINWURF_SAK_VERSION);
+#endif
+
+        return version;
+    }
+
+    void create_version_function()
+    {
+        using namespace boost::python;
+        scope().attr("__version__") = version();
+    }
+
+
     BOOST_PYTHON_MODULE(fifi)
     {
         using namespace fifi;
 
         boost::python::docstring_options doc_options;
         doc_options.disable_signatures();
+
+        create_version_function();
 
         finite_field<extended_log_table, binary16>(
             "extended_log_table", "binary16");

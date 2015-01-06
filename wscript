@@ -23,7 +23,7 @@ def options(opt):
 
     bundle.add_dependency(opt, resolve.ResolveGitMajorVersion(
         name='boost',
-        git_repository='github.com/steinwurf/external-boost-light.git',
+        git_repository='github.com/steinwurf/boost.git',
         major_version=1))
 
     bundle.add_dependency(opt, resolve.ResolveGitMajorVersion(
@@ -34,7 +34,7 @@ def options(opt):
     bundle.add_dependency(opt, resolve.ResolveGitMajorVersion(
         name='fifi',
         git_repository='github.com/steinwurf/fifi.git',
-        major_version=14))
+        major_version=17))
 
     bundle.add_dependency(opt, resolve.ResolveGitMajorVersion(
         name='platform',
@@ -44,11 +44,11 @@ def options(opt):
     bundle.add_dependency(opt, resolve.ResolveGitMajorVersion(
         name='sak',
         git_repository='github.com/steinwurf/sak.git',
-        major_version=12))
+        major_version=14))
 
     bundle.add_dependency(opt, resolve.ResolveGitMajorVersion(
         name='waf-tools',
-        git_repository='github.com/steinwurf/external-waf-tools.git',
+        git_repository='github.com/steinwurf/waf-tools.git',
         major_version=2))
 
     opt.load("wurf_configure_output")
