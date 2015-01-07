@@ -117,7 +117,7 @@ Windows
 Install Python 2.7 32-bit and Visual Studio 2013 (Express).
 Now set the following environment variable ``VS90COMNTOOLS`` to::
 
-  C:\\Program Files (x86)\\Microsoft Visual Studio 12.0\\Common7\\Tools\\
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\Tools\
 
 so that Python distutils can detect your new compiler.
 
