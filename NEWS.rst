@@ -6,6 +6,10 @@ every change, see the Git log.
 
 Latest
 ------
+* tbd
+
+2.0.0
+-----
 * Minor: Added version attribute to the fifi python module.
 * Minor: Added examples and simple api wrapping the basic functions of fifi.
 * Major: Upgrade to fifi 17
