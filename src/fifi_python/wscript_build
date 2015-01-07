@@ -1,10 +1,6 @@
 #! /usr/bin/env python
 # encoding: utf-8
 
-from waflib import Context
-
-VERSION = Context.g_module.VERSION
-
 extra_linkflags = []
 extra_cxxflags = []
 CXX = bld.env.get_flat("CXX")
@@ -20,7 +16,7 @@ bld(
     name='fifi-python',
     cxxflags=extra_cxxflags,
     linkflags=extra_linkflags,
-    defines=['STEINWURF_FIFI_PYTHON_VERSION="{}"'.format(VERSION)],
-    use=['boost_filesystem', 'boost_includes', 'boost_python', 'boost_system',
-         'fifi', 'fifi_includes', 'sak_includes']
+    use=['STEINWURF_VERSION', 'boost_filesystem', 'boost_includes',
+         'boost_python', 'boost_system', 'fifi', 'fifi_includes',
+         'sak_includes']
 )
