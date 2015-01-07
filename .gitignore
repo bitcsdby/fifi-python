@@ -53,3 +53,6 @@ local.properties
 *.opensdf
 *.log
 VSProjects
+
+# Pip build directory
+pip

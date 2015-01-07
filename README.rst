@@ -1,8 +1,8 @@
-Fifi-Python
+fifi-python
 ===========
-This package contains high-level python bindings for the Fifi Finite Field
-library. The bindings provide access to the arithmetic operations provided by
-Fifi.
+fifi-python contains a set of high-level python bindings for the Fifi Finite
+Field C++ library. The bindings provide access to the arithmetic operations
+provided by Fifi.
 
 .. image:: http://buildbot.steinwurf.dk/svgstatus?project=fifi-python
     :target: http://buildbot.steinwurf.dk/stats?projects=fifi-python
@@ -10,16 +10,16 @@ Fifi.
 .. image:: https://badge.fury.io/py/fifi.svg
     :target: http://badge.fury.io/py/fifi
 .. image:: https://pypip.in/download/fifi/badge.svg
-    :target: https://pypi.python.org/pypi//fifi/
+    :target: https://pypi.python.org/pypi/fifi
     :alt: Downloads
 .. image:: https://pypip.in/py_versions/fifi/badge.svg
-    :target: https://pypi.python.org/pypi/fifi/
+    :target: https://pypi.python.org/pypi/fifi
     :alt: Supported Python versions
 .. image:: https://pypip.in/format/fifi/badge.svg
-    :target: https://pypi.python.org/pypi/fifi/
+    :target: https://pypi.python.org/pypi/fifi
     :alt: Download format
 .. image:: https://pypip.in/license/fifi/badge.svg
-    :target: https://pypi.python.org/pypi/fifi/
+    :target: https://pypi.python.org/pypi/fifi
     :alt: License
 
 License
@@ -34,10 +34,10 @@ see the details in the `LICENSE.rst file
 
 .. _form: http://steinwurf.com/license/
 
+
 Installation
 ============
-We provide a pip package for easy installation of the fifi-python
-library.
+We provide a pip package for easy installation of the fifi-python library.
 
 To install this you'll need python and pip installed:
  - To get python `go here <https://www.python.org/downloads/>`_.
@@ -85,11 +85,9 @@ When you are ready to install the package, you can simply type::
 
   pip install fifi
 
-
 Requirements for Building From Source
 =====================================
-Depending on your platform, different steps are needed for building
-fifi-python.
+Depending on your platform, different steps are needed for building fifi-python.
 
 Please note that a recent C++11 compiler is required. The compilers used by
 Steinwurf are listed on the `buildbot page <http://buildbot.steinwurf.com>`_.
@@ -137,7 +135,8 @@ configure and build the project::
   python waf build
 
 Now the project is built and you should be able to find the resulting
-fifi.so file here (the actual path is dependent on your OS)::
+fifi.so file here (the actual path and extension is dependent on
+your OS and python version.)::
 
   build/linux/src/fifi_python/fifi.so
 
