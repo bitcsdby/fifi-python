@@ -1,8 +1,8 @@
 fifi-python
 ===========
-fifi-python is a set of high-level python bindings for the Fifi Finite Field
-C++ library. The bindings provide access to the arithmetic operations provided
-by Fifi.
+fifi-python contains a set of high-level python bindings for the Fifi Finite
+Field C++ library. The bindings provide access to the arithmetic operations
+provided by Fifi.
 
 .. image:: http://buildbot.steinwurf.dk/svgstatus?project=fifi-python
     :target: http://buildbot.steinwurf.dk/stats?projects=fifi-python
