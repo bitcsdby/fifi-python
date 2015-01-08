@@ -108,6 +108,10 @@ def build(bld):
 
     bld.recurse('src/fifi_python')
 
+    bld.env.append_unique(
+        'DEFINES_STEINWURF_VERSION',
+        'STEINWURF_FIFI_PYTHON_VERSION="{}"'.format(VERSION))
+
 
 @feature('pyext')
 @after_method('apply_link')
