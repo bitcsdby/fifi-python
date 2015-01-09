@@ -8,6 +8,10 @@ Latest
 ------
 * tbd
 
+2.0.1
+-----
+* Patch: Fix version function.
+
 2.0.0
 -----
 * Minor: Added version attribute to the fifi python module.
