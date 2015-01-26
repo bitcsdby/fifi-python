@@ -75,7 +75,7 @@ def configure(conf):
         recurse_helper(conf, 'platform')
         recurse_helper(conf, 'sak')
 
-    #Ensure that Python is configured properly
+    # Ensure that Python is configured properly
     if not conf.env['BUILD_PYTHON']:
         conf.fatal('Python was not configured properly')
 
