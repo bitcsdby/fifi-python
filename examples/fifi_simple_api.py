@@ -19,28 +19,48 @@ class {classname}(object):
         self.number = number
 
     def __convert(self, b):
-            if type(b) is int:
-                return {classname}(b)
-            return b
+        if type(b) is int:
+            return {classname}(b)
+        return b
 
     def __add__(self, b):
         b = self.__convert(b)
         return {classname}({classname}.field.add(self.number, b.number))
 
+    def __radd__(self, b):
+        b = self.__convert(b)
+        return {classname}({classname}.field.add(b.number, self.number))
+
     def __sub__(self, b):
         b = self.__convert(b)
         return {classname}({classname}.field.subtract(self.number, b.number))
+
+    def __rsub__(self, b):
+        b = self.__convert(b)
+        return {classname}({classname}.field.subtract(b.number, self.number))
 
     def __mul__(self, b):
         b = self.__convert(b)
         return {classname}({classname}.field.multiply(self.number, b.number))
 
+    def __rmul__(self, b):
+        b = self.__convert(b)
+        return {classname}({classname}.field.multiply(b.number, self.number))
+
     def __div__(self, b):
         b = self.__convert(b)
         return {classname}({classname}.field.divide(self.number, b.number))
 
+    def __rdiv__(self, b):
+        b = self.__convert(b)
+        return {classname}({classname}.field.divide(b.number, self.number))
+
     def __truediv__(self, b):
         return self.__div__(b)
+
+    def __rtruediv__(self, b):
+        b = self.__convert(b)
+        return b.__div__(self)
 
     def __invert__(self):
         return {classname}({classname}.field.invert(self.number))
