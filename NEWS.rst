@@ -6,7 +6,7 @@ every change, see the Git log.
 
 Latest
 ------
-* tbd
+* Minor: Added right hand oparands to simple API.
 
 2.0.1
 -----
