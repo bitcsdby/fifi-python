@@ -42,9 +42,9 @@ Installation
 We provide a pip package for the easy installation of the fifi-python library.
 
 To install this you'll need python and pip installed:
+
  - To get python `go here <https://www.python.org/downloads/>`_.
- - To install pip `follow this guide
-   <https://pip.pypa.io/en/latest/installing.html>`_.
+ - To install pip `follow this guide <https://pip.pypa.io/en/latest/installing.html>`_.
 
 You will need a set of tools and packages to build the library.
 
