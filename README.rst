@@ -118,7 +118,7 @@ Now the project is built and you should be able to find the resulting
 dependent on your OS and Python version)::
 
   build/linux/src/fifi_python/fifi.so
-  build/darwin/src/fifi_python/fifi.so
+  build/darwin/src/fifi_python/fifi.dylib
   build/win32/src/fifi_python/fifi.pyd
 
 You can add this path to your PYTHONPATH and import the module in your Python
