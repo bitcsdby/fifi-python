@@ -36,6 +36,10 @@ see the details in the `LICENSE.rst file
 
 .. _form: http://steinwurf.com/license/
 
+If you have any questions or suggestions about this library, please contact
+us at our developer mailing list (hosted at Google Groups):
+
+* http://groups.google.com/group/steinwurf-dev
 
 Installation
 ============
