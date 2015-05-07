@@ -34,7 +34,7 @@ def options(opt):
     bundle.add_dependency(opt, resolve.ResolveGitMajorVersion(
         name='fifi',
         git_repository='github.com/steinwurf/fifi.git',
-        major_version=17))
+        major_version=20))
 
     bundle.add_dependency(opt, resolve.ResolveGitMajorVersion(
         name='platform',
