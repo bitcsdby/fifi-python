@@ -6,6 +6,10 @@ every change, see the Git log.
 
 Latest
 ------
+* tbd
+
+3.0.0
+-----
 * Major: Upgrade to fifi 20
 * Minor: Added representation and comparison methods to simple API
 * Minor: Added right hand operands to simple API

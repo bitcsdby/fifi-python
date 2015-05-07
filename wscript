@@ -5,7 +5,7 @@ import os
 from waflib.TaskGen import feature, after_method
 
 APPNAME = 'fifi-python'
-VERSION = '2.0.1'
+VERSION = '3.0.0'
 
 
 def recurse_helper(ctx, name):
