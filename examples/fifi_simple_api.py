@@ -16,6 +16,8 @@ class {classname}(object):
     field = {implementation}_{name}()
     def __init__(self, number):
         super({classname}, self).__init__()
+        assert number < 2**{degree}, \\
+            "{{}} is out of range for {classname}.".format(number)
         self.number = number
 
     def __convert(self, b):
@@ -67,6 +69,27 @@ class {classname}(object):
 
     def __str__(self):
         return str(self.number)
+
+    def __repr__(self):
+        return self.__str__()
+
+    def __eq__(self, b):
+        return self.number == b.number
+
+    def __ne__(self, b):
+        return self.number != b.number
+
+    def __gt__(self, b):
+        return self.number > b.number
+
+    def __lt__(self, b):
+        return self.number < b.number
+
+    def __ge__(self, b):
+        return self.number >= b.number
+
+    def __le__(self, b):
+        return self.number <= b.number
 """
 
 fields = {
