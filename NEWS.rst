@@ -6,7 +6,9 @@ every change, see the Git log.
 
 Latest
 ------
-* Minor: Added right hand oparands to simple API.
+* Major: Upgrade to fifi 20
+* Minor: Added representation and comparison methods to simple API
+* Minor: Added right hand operands to simple API
 
 2.0.1
 -----
@@ -14,8 +16,8 @@ Latest
 
 2.0.0
 -----
-* Minor: Added version attribute to the fifi python module.
-* Minor: Added examples and simple api wrapping the basic functions of fifi.
+* Minor: Added version attribute to the fifi python module
+* Minor: Added examples and simple API wrapping the basic functions of fifi
 * Major: Upgrade to fifi 17
 * Major: Upgrade to sak 14
 * Minor: Make finite field stacks non-copyable (since some of these have
@@ -23,7 +25,7 @@ Latest
 
 1.0.1
 -----
-* Patch: Removed unused dependencies.
+* Patch: Removed unused dependencies
 
 1.0.0
 -----
