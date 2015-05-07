@@ -17,7 +17,7 @@ class {classname}(object):
     def __init__(self, number):
         super({classname}, self).__init__()
         assert number < 2**{degree}, \\
-            "{{}} is out of range for {classname}.".format(number)
+            "{{}} is out of range for {name}.".format(number)
         self.number = number
 
     def __convert(self, b):
