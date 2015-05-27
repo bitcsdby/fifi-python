@@ -138,7 +138,20 @@ dependent on your OS and Python version)::
   build/darwin/src/fifi_python/fifi.dylib
   build/win32/src/fifi_python/fifi.pyd
 
-You can add this path to your PYTHONPATH and import the module in your Python
-script::
+To use the bindings in your Python project you can do the following:
+
+Using `PYTHONPATH` 
+..................
+
+You can add the ``build/platform/src/fifi_python/`` path to your ``PYTHONPATH`` 
+and import the module in your Python script::
 
   >>> import fifi
+
+Copy the bindings to your project
+.................................
+
+Another option is to copy the built bindings e.g. ``build/linux/src/fifi_python/fifi.so``
+for Linux to your project directory. As an example if your script is stored in
+``/path/to/hello.py``, then copy the bindings to ``/path/to/fifi.so`` and you should be
+able to ``import fifi`` from within the ``hello.py`` script.
