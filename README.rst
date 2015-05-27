@@ -1,10 +1,11 @@
 fifi-python
 ===========
 
-fifi-python contains a set of high-level Python bindings for the Fifi Finite
-Field C++ library. The bindings provide access to the arithmetic operations
-provided by Fifi. The examples folder provides sample applications showing
-the usage of the Python API.
+fifi-python contains a set of high-level Python bindings for the `Fifi
+<https://github.com/steinwurf/fifi>`_ finite field C++ library. The
+bindings provide access to the arithmetic operations provided by Fifi. The
+examples folder provides sample applications showing the usage of the
+Python API.
 
 .. image:: http://buildbot.steinwurf.dk/svgstatus?project=fifi-python
     :target: http://buildbot.steinwurf.dk/stats?projects=fifi-python
@@ -24,11 +25,14 @@ the usage of the Python API.
     :target: https://pypi.python.org/pypi/fifi
     :alt: License
 
+.. contents:: Table of Contents:
+   :local:
+
 License
-=======
+-------
 
 A valid license is required if you wish to use and install this library. Please
-request a license by filling out the license request** form_.
+request a license by filling out the license request form_.
 
 This project is available under a research- and education-friendly license,
 see the details in the `LICENSE.rst file
@@ -42,22 +46,28 @@ us at our developer mailing list (hosted at Google Groups):
 * http://groups.google.com/group/steinwurf-dev
 
 Installation
-============
-We provide a pip package for the easy installation of the fifi-python library.
+------------
+
+We provide a `pip
+<http://en.wikipedia.org/wiki/Pip_%28package_manager%29>`_ package for the
+easy installation of the fifi-python library.
 
 To install this you'll need python and pip installed:
 
- - To get python `go here <https://www.python.org/downloads/>`_.
- - To install pip `follow this guide <https://pip.pypa.io/en/latest/installing.html>`_.
+- To install Python `go here <https://www.python.org/downloads/>`_.
+- To install pip `follow this guide <https://pip.pypa.io/en/latest/installing.html>`_.
 
 You will need a set of tools and packages to build the library.
 
 On all platforms, you will need a recent C++11 compiler.
-The compilers used by Steinwurf are listed on the
+The compilers used by Steinwurf are listed on our
 `buildbot page <http://buildbot.steinwurf.com>`_.
 
+In the following we provide platform specific installation instructions.
+
 Linux
------
+.....
+
 These steps may not work with your specific Linux distribution, but they may
 guide you in the right direction.
 
@@ -72,19 +82,21 @@ When you are ready to install the package, you can simply type::
 
   sudo pip install fifi
 
-MacOSX
-------
+Mac OSX
+.......
+
 Follow `this guide
 <https://help.github.com/articles/set-up-git#setting-up-git>`_ to install git.
 
-Install the latest XCode and Command-line Tools from the Mac Store.
+Install the latest XCode and Command-line Tools from the Mac App Store.
 
 When you are ready to install the package, you can simply type::
 
   sudo pip install fifi
 
 Windows
--------
+.......
+
 Install Python 2.7 (32-bit) and Visual Studio Express 2013 for Windows Desktop.
 Then set the ``VS90COMNTOOLS`` environment variable to::
 
@@ -101,7 +113,8 @@ When you are ready to install the package, you can simply type::
   pip install fifi
 
 Building From Source
-====================
+--------------------
+
 You can also build the bindings from source, if you don't want to use pip.
 
 Before doing anything, please install the requirements specified in
