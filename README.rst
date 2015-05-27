@@ -60,8 +60,10 @@ To install this you'll need python and pip installed:
 You will need a set of tools and packages to build the library.
 
 On all platforms, you will need a recent C++11 compiler.
-The compilers used by Steinwurf are listed on the
+The compilers used by Steinwurf are listed on our
 `buildbot page <http://buildbot.steinwurf.com>`_.
+
+In the following we provide platform specific installation instructions.
 
 Linux
 .....
@@ -80,13 +82,13 @@ When you are ready to install the package, you can simply type::
 
   sudo pip install fifi
 
-MacOSX
-......
+Mac OSX
+.......
 
 Follow `this guide
 <https://help.github.com/articles/set-up-git#setting-up-git>`_ to install git.
 
-Install the latest XCode and Command-line Tools from the Mac Store.
+Install the latest XCode and Command-line Tools from the Mac App Store.
 
 When you are ready to install the package, you can simply type::
 
