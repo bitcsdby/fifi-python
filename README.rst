@@ -29,7 +29,7 @@ Python API.
    :local:
 
 License
-=======
+-------
 
 A valid license is required if you wish to use and install this library. Please
 request a license by filling out the license request** form_.
@@ -46,7 +46,8 @@ us at our developer mailing list (hosted at Google Groups):
 * http://groups.google.com/group/steinwurf-dev
 
 Installation
-============
+------------
+
 We provide a pip package for the easy installation of the fifi-python library.
 
 To install this you'll need python and pip installed:
@@ -61,7 +62,8 @@ The compilers used by Steinwurf are listed on the
 `buildbot page <http://buildbot.steinwurf.com>`_.
 
 Linux
------
+.....
+
 These steps may not work with your specific Linux distribution, but they may
 guide you in the right direction.
 
@@ -77,7 +79,8 @@ When you are ready to install the package, you can simply type::
   sudo pip install fifi
 
 MacOSX
-------
+......
+
 Follow `this guide
 <https://help.github.com/articles/set-up-git#setting-up-git>`_ to install git.
 
@@ -88,7 +91,8 @@ When you are ready to install the package, you can simply type::
   sudo pip install fifi
 
 Windows
--------
+.......
+
 Install Python 2.7 (32-bit) and Visual Studio Express 2013 for Windows Desktop.
 Then set the ``VS90COMNTOOLS`` environment variable to::
 
@@ -105,7 +109,8 @@ When you are ready to install the package, you can simply type::
   pip install fifi
 
 Building From Source
-====================
+--------------------
+
 You can also build the bindings from source, if you don't want to use pip.
 
 Before doing anything, please install the requirements specified in
