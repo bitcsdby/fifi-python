@@ -32,7 +32,7 @@ License
 -------
 
 A valid license is required if you wish to use and install this library. Please
-request a license by filling out the license request** form_.
+request a license by filling out the license request form_.
 
 This project is available under a research- and education-friendly license,
 see the details in the `LICENSE.rst file
