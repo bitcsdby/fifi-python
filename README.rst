@@ -1,10 +1,11 @@
 fifi-python
 ===========
 
-fifi-python contains a set of high-level Python bindings for the Fifi Finite
-Field C++ library. The bindings provide access to the arithmetic operations
-provided by Fifi. The examples folder provides sample applications showing
-the usage of the Python API.
+fifi-python contains a set of high-level Python bindings for the `Fifi
+<https://github.com/steinwurf/fifi>`_ finite field C++ library. The
+bindings provide access to the arithmetic operations provided by Fifi. The
+examples folder provides sample applications showing the usage of the
+Python API.
 
 .. image:: http://buildbot.steinwurf.dk/svgstatus?project=fifi-python
     :target: http://buildbot.steinwurf.dk/stats?projects=fifi-python
@@ -23,6 +24,9 @@ the usage of the Python API.
 .. image:: https://pypip.in/license/fifi/badge.svg
     :target: https://pypi.python.org/pypi/fifi
     :alt: License
+
+.. contents:: Table of Contents:
+   :local:
 
 License
 =======
