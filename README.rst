@@ -48,11 +48,13 @@ us at our developer mailing list (hosted at Google Groups):
 Installation
 ------------
 
-We provide a pip package for the easy installation of the fifi-python library.
+We provide a `pip
+<http://en.wikipedia.org/wiki/Pip_%28package_manager%29>`_ package for the
+easy installation of the fifi-python library.
 
 To install this you'll need python and pip installed:
 
-- To get python `go here <https://www.python.org/downloads/>`_.
+- To install Python `go here <https://www.python.org/downloads/>`_.
 - To install pip `follow this guide <https://pip.pypa.io/en/latest/installing.html>`_.
 
 You will need a set of tools and packages to build the library.
