@@ -8,6 +8,12 @@ Latest
 ------
 * tbd
 
+4.0.0
+-----
+* Major: Upgrade to waf-tools 3
+* Major: Upgrade to boost 2
+* Major: Upgrade to fifi 21
+
 3.0.0
 -----
 * Major: Upgrade to fifi 20
